@@ -1,3 +1,16 @@
+#Steps to do in terminal :
+#cd ..
+#pip3 install playwright
+#playwright install chromium
+#playwright codegen
+#two win will pop up
+
+#paste random url and click few fields
+#changes will be converted into code in the recorder
+#stop the recorder
+#copy code in editor
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 from playwright.sync_api import Playwright, sync_playwright, expect
 import time
 
@@ -42,3 +55,5 @@ def run(playwright: Playwright) -> None:
 
 with sync_playwright() as playwright:
     run(playwright)
+
+#run
