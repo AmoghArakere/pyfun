@@ -13,7 +13,7 @@ def time():
   label.after(1000,time)
 
 #Create a label widget to display time
-label=tk.Label(root,font=('arial',40,'bold'),background='white',foreground='black')
+label=tk.Label(root,font=('arial',40,'bold'),background='black',foreground='cyan')
 label.pack(anchor='center')
 
 #call the time function to update the time
