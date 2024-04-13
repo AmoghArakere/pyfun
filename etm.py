@@ -12,8 +12,8 @@ english_to_morse = {
 
 }
 
-user_string = input('Enter a string to translate to morse code: ')
-
+'''user_string = input('Enter a string to translate to morse code: ')'''
+user_string = "abcdef"
 
 def translate(text):
     text = text.upper()
